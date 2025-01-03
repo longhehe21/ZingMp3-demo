@@ -1,0 +1,27 @@
+:root{
+    --background-color:rgb(31, 21, 81);
+    --primary-color: rgb(205, 4, 223);
+    --primary-color2:rgb(52, 34, 79);
+    --text-color: #fff;
+    --border-color:rgb(205, 4, 223);
+    --header-height:70px;
+    --navbar-height:34px;
+    --img-logo-mp3:url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg);
+    --star-gold-color:#ffce3e;
+    --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height:46px;
+    --text-placeholder: #dadada
+}
+*{
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color:transparent;
+}
+body{
+    background-color: rgb(23, 15, 35);
+}
